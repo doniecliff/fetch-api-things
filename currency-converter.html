@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Currency Converter</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+  <div class="container pt-5">
+    <div class="border border-info border-1 shadow rounded col-11 col-md-6 pt-3 pb-5 ps-5">
+      <h1 class="h3 text-info text-center text-md-start mb-3">Currency Converter</h1>
+      <h3 id="firstCV" class=" h6 text-secondary fw-bold mb-5">Sub head e.g 1 unit equals</h3>
+
+      <!-- output -->
+      <div class="col-5 mb-5">
+        <!-- unit -->
+        <div class="display-6 text-warning">0.0024 United States Dollar</div>
+        <!-- date&time -->
+        <div class="lead px-1">Date</div>
+      </div>
+
+
+      <!-- input - compare nation's currencies-->
+      <div class="col-5 row row-cols-2 justify-content-between g-3 mb-4">
+        <!-- first -->
+        <input type="text" class="col-8" id="firstCValue">
+        <select aria-placeholder="Countries" class="select-nation col-4 p-0">
+          <option value="">First Nation</option>
+          <!-- more -->
+        </select>
+        
+        <!-- Second -->
+        <input type="text" class="col-8" id="SecondCValue">
+        <select aria-placeholder="Countries" class="select-nation col-4 p-0">
+          <option value="">Second Nation</option>
+          <!-- more -->
+        </select>
+
+        <!-- <select aria-placeholder="Countries" id="">
+          <option value="">Select First Countries</option>
+          
+      </select> -->
+
+      </div>
+      <div class="col-11 d-flex justify-content-end"><a href="./home.html" class="btn btn-primary">Home</a></div>
+
+
+    </div>
+
+
+
+  </div>
+<script src="./js/bootstrap.bundle.min.js"></script>
+<script src="./js/cconverter.js"></script>
+</body>
+</html>

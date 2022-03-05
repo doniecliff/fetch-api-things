@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>fetch things</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/btstrp-icons-1.7.2/icons-1.7.2/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+  <div class="pos-parent">
+
+    <div class="col-12 bg-dark" style="height: 35vh;"></div>
+
+    <div class="pos-child pos-child--t2 pos-parent pos-child--l1  rounded bg-light col-11 col-md-7">
+
+      <div class="mb-4">
+        <hr style="margin-top: 140px; margin-bottom: 130px;">
+        <div class="pos-child pos-child--t1 pos-child--l1 pos-parent col-3 rounded-circle">
+          <img id="userPic" class="img-fluid p-1 border border-1 border-warning rounded-circle bg-white" src="./img/1891250_1412559885660400_259270115_n.png" alt="user-img">
+          <input type="submit" id="newUser" value="New" class="pos-child pos-child--b2 pos-child--l1 text-white text-center py-1 col-4 rounded d-none border-0">
+        </div>
+
+        <div id="" class="container text-center mb-4">
+          <h5 id="propKey" class="text-secondary">property key</h5>
+          <h1 id="propValue" class="display-5 fw-bold">Properties value</h1>
+        </div>
+
+        <!-- navigator -->
+        <div class="container" id="navi">
+          <div class="col-6 row row-cols-4 mx-auto text-center">
+            <!-- profile -->
+            <div class="col"><i class="bi fs-3 bi-file-person"></i></div>
+            <!-- email -->
+            <div class="col"><i class="bi fs-3 bi-envelope"></i></div>
+            <!-- DOB -->
+            <div class="col"><i class="bi fs-3 bi-calendar-week"></i></div>
+            <!-- address -->
+            <div class="col"><i class="bi fs-3 bi-geo-alt"></i></div>
+
+          </div>
+
+
+        </div>
+
+        <div class="d-flex justify-content-end"><a href="./home.html" class="btn btn-primary">Home</a></div>
+
+      </div>
+        
+    </div>
+
+  </div>
+  
+<script src="./js/bootstrap.bundle.min.js"></script>
+<script src="./js/script.js"></script>
+</body>
+</html>
+
+<!-- obj factory /constructor functn -->
+<!-- 
+  flat
+  map
+  filter
+  reduce
+  foreach in of
+
+  every
+  some
+
+  num, string, bool
+
+  error
+  ___
+  OOP
+  encapsulation
+  meth 2 manage its state
+
+  abstractn
+  only high-lvl mechanism is exposed to external forces
+
+  polymorphism
+
+
+  inheritance
+  to incr re-usability
+  e.g (extends)
+
+  try catch finally - 4 err-handling throw
+  [anytin uthrow is going to ur catch block
+  ]
+  line where err occurred?
+ 
+  fetch - works with chaining (then catch, )
+  promises
+  async
+  await
+
+  then catch finally
+-->
+
+<!-- AJAX
+fetch - its a web api already der, 4 d web or u would hav to install it as npm package
+.then (chaining)
+clean it to a json datatype
+
+resolve, reject
+
+axios - on node; install it
+
+async with IIFE
+(async ()=> {
+  const res = await fetch(url)
+  const data = await res.json
+})()
+
+or u name d functn and call it; rada than using an
+anonymous functn & using IIFE
+
+restful api & graphQL both come as JSON by default
+-->
+
+
+<!-- network tab on devtool  
+z wer u see all http request
+to simulate situation wer netw is slow hw ur site will pwerform
+wat will work on ur site wen theres no netw at all
+
+manifest
+ws web socket
+wasm web assembly
+--> 
+
+<!-- consume an api
+
+use random api
+-go through landing pg!, then also docs!, console.log it
+name, Dob email addr under img
+u nid internet
+
+
+randomuser.me
+-->
+
+
+<!-- Rapid API 
+  to get several api
+  
+  wordsApi 
+  currency converter api - build curr converter
+  -->
+
+
+  <!-- constructor objs
+  
+  date
+error
+
+
+# diff types of err(s)
+mainly [syntax/parsn, runtime, logical/most-difficult] 
+- list;
+TypeError, syntax, ReferenceError,
+RangeError, URIError, EvalError, InternalError
+-->
+
+<!-- 
+  Formats
+the data formats:
+
+JSON (default)
+PrettyJSON or pretty
+CSV
+YAML
+XML
+ -->
+
+ <!-- 
+   Network tab on dev tools
+
+   preserve log
+   {headers}
+
+   test ur site perf on diff network speed - choosing and throoting btw optns
+   recording
+   filter
+   search
+
+   resources - filter by type of resrc(e.g img, doc...)
+   disable, catch
+
+  -->

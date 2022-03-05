@@ -1,0 +1,112 @@
+
+body {
+    font-size: 1rem;
+
+     font-family:
+        /* // Cross-platform generic font family (default user interface font) */
+        system-ui,
+        /* // Safari for macOS and iOS (San Francisco) */
+        -apple-system,
+        /* // Windows */
+        "Segoe UI",
+        /* // Android */
+        Roboto,
+        /* // Basic web fallback */
+        "Helvetica Neue", Arial,
+        /* // Linux */
+        "Noto Sans",
+        "Liberation Sans",
+        /* // Sans serif fallback */
+        sans-serif,
+        /* // Emoji fonts */
+        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+
+
+/* #CED4DA - 4 border color*/ 
+.input-field-bcolor{
+    border-color: #CED4DA !important;
+}
+
+/* font size */
+.fs-7{
+    font-size: 0.8rem;
+}
+.fs-8{
+    font-size: 0.6rem;
+
+}
+.fs-9{
+    font-size: 0.4rem;
+
+}
+
+/* special colors */
+.yellowish {
+    background-color: #FCFFA2 !important;
+}
+.purplish {
+    background-color: #D099CB !important;
+}
+.greenish {
+    background-color: #66B476 !important;
+}
+
+
+/* position things */
+.pos-parent {
+    position: relative
+}
+.pos-child {
+    position: absolute;
+}
+.pos-child--t1 {
+    top: 10%; 
+}
+.pos-child--t2 {
+    top: 40%; 
+}
+.pos-child--l1 {
+    left: 50%;
+    transform: translate(-50%);
+}
+.pos-child--b2 {
+    bottom: 17%; 
+}
+
+/* inputs */
+.input-group{
+    border: 1px solid gray ;
+    border-radius: 5px;
+}
+.input-group__input{
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+}
+.input-group__input:hover{
+    border: 0;
+    outline: 0;
+}
+
+
+
+
+.vert-align{
+    vertical-align: middle;
+}
+
+#navi .bi:hover {
+    color: #83BA43;
+}
+#newUser {
+    background-color: rgba(0, 0, 0, 0.685);
+    cursor: pointer;
+}
+
+
+/* ------- */
+.border-it {
+    border: 2px solid red !important;
+}
